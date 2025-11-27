@@ -1,7 +1,7 @@
 # Astaraxia
 
 Astaraxia is a flexible, source–binary hybrid Linux distribution focused on transparency, configurability, and reproducibility.  
-The system provides complete control over build configuration while remaining straightforward to maintain.
+The system provides complete control over build configuration while remaining straightforward to maintain (or not).
 
 # Astaraxia Devs
 Me
@@ -44,11 +44,17 @@ After bootstrap, all packages—including the base—can be rebuilt through Astr
 
 ## Directory Layout
 
-/usr/src/astral/recipes/ # official recipe tree
-/etc/astral/config # manager configuration
-/var/cache/astral/src/ # cached sources
-/var/cache/astral/bin/ # cached binaries
-/var/lib/astral/db/ # installed package metadata
+/usr/src/astral/recipes/ 
+official recipe tree
+
+/etc/astral/config
+manager configuration
+/var/cache/astral/src/
+cached sources
+/var/cache/astral/bin/
+cached binaries
+/var/lib/astral/db/ 
+installed package metadata
 
 
 ## Goals
@@ -60,6 +66,9 @@ After bootstrap, all packages—including the base—can be rebuilt through Astr
 ## Status
 Astaraxia is under active development.  
 The bootstrap system (LFS-based) must be completed before the first release.
+
+### Current status
+LFS CH8 GCC 15.2.0
 
 ## License
 Astaraxia and Astral will adopt an open-source license compatible with the upstream software they package.  
