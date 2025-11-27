@@ -91,13 +91,14 @@ Expected tunable options:
 
 ## Directory Layout
 Planned filesystem layout:
+```
 /usr/src/astral/recipes/      # official package recipes  
 /etc/astral/config            # system-level configuration  
 /var/cache/astral/src/        # cached source archives  
 /var/cache/astral/bin/        # cached binary packages  
 /var/lib/astral/db/           # installed package metadata  
 /var/log/astral/              # logs for build failures and installs
-
+```
 ## Goals
 
 - Provide a fully transparent build system
