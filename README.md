@@ -15,7 +15,7 @@
 - [License](#license)
 
 ## Overview  
-(blurb what Astaraxia is, what makes it special compared to other distros)
+(what Astaraxia is, what makes it special compared to other distros)
 
 ## Key Features  
 - Hybrid build model: binary and source packages via Astral  
@@ -27,6 +27,7 @@
 Currently bootstraping via LFS (CH8, GCC 15.2.0), no core packages yet (or list which are ready) — under active development
 
 ## Installation / Bootstrapping  
+**This is just the idea, gonna make a minimal iso soon**
 ### Prerequisites  
 - Host system requirements: x86_64 CPU (or list), RAM, disk space, Internet  
 - Required tools (e.g. a working shell, ability to compile)  
@@ -84,12 +85,7 @@ Describe config file `/etc/astral/config`, sample contents, how to override defa
 - Add support for optional init systems (systemd, OpenRC)  
 - Write documentation: installation guides, troubleshooting, package recipe standards  
 - Make first release, tag it, publish binary package repository  
-
-## Contributing  
-If you want to help:  
-- Write recipes under `/usr/src/astral/recipes/`  
-- Test builds on clean environment, report bugs or build failures  
-- Suggest improvements, submit patches, contribute docs  
-
+- Minimal iso
+  
 ## License  
 Documentation and tooling under MIT license. For bundled packages, upstream licenses apply.  
