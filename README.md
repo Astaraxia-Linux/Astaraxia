@@ -6,6 +6,8 @@
 > The distribution, package manager, recipes, and build system **do not exist in a usable form yet**.  
 > Development will begin after the Linux From Scratch bootstrap is complete.
 
+Im a just single dev, i dont have anyone to help me with. i dont know if i can do all of this
+
 ## Table of Contents  
 - [Overview](#overview)  
 - [Key Features](#key-features)  
