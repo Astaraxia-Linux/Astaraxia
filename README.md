@@ -44,17 +44,12 @@ After bootstrap, all packages—including the base—can be rebuilt through Astr
 
 ## Directory Layout
 
-/usr/src/astral/recipes/ 
-official recipe tree
+- /usr/src/astral/recipes/    # Official recipe tree
+- /etc/astral/config          # Package manager configuration
+- /var/cache/astral/src/      # Cached source archives
+- /var/cache/astral/bin/      # Cached binary packages
+- /var/lib/astral/db/         # Installed package metadata
 
-/etc/astral/config
-manager configuration
-/var/cache/astral/src/
-cached sources
-/var/cache/astral/bin/
-cached binaries
-/var/lib/astral/db/ 
-installed package metadata
 
 
 ## Goals
