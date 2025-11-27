@@ -1,8 +1,8 @@
-# Astarxia  
+# Astaraxia  
 *A flexible, source–binary hybrid Linux distribution for transparency, configurability, and reproducibility.*
 
 > **Warning:**  
-> Astarxia is currently an early-stage concept.  
+> Astaraxia is currently an early-stage concept.  
 > The distribution, package manager, recipes, and build system **do not exist in a usable form yet**.  
 > Development will begin after the Linux From Scratch bootstrap is complete.
 
@@ -20,10 +20,10 @@
 - [License](#license)
 
 ## Overview  
-Astarxia is a conceptual Linux distribution designed around a unified hybrid package model.  
+Astaraxia is a conceptual Linux distribution designed around a unified hybrid package model.  
 It aims to give users full control over their system by allowing both binary installations and fully transparent source builds through a custom package manager called **Astral**.
 
-While inspired by source-based distributions, Astarxia intends to remain straightforward to maintain, predictable in behavior, and fully reproducible.  
+While inspired by source-based distributions, Astaraxia intends to remain straightforward to maintain, predictable in behavior, and fully reproducible.  
 The project is currently in the planning phase.
 
 ## Key Features  
@@ -38,14 +38,14 @@ Planned features include:
 These features are **not implemented yet**.
 
 ## Status  
-Astarxia is *not* a functional distribution.  
+Astaraxia is *not* a functional distribution.  
 The developer is currently working through the LFS bootstrap (Chapter 8, GCC 15.2.0, Test Suite).  
 Once the base system is complete, initial work on Astral and package recipes will begin.
 
 No ISO, no repositories, no packages, and no release currently exist.
 
 ## Installation / Bootstrapping  
-Astarxia cannot be installed yet.  
+Astaraxia cannot be installed yet.  
 This section describes the *planned* bootstrap process.
 
 ### Prerequisites  
