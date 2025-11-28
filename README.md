@@ -63,7 +63,7 @@ This section describes the *planned* bootstrap process.
 3. Clone the Astaraxia repository.  
 4. Build the Astral package manager.  
 5. Use Astral to install core packages and build the base system.  
-6. Optionally choose an init system (systemd or OpenRC).
+6. init system systemd.
 
 These steps are currently placeholders and will be updated once development begins.
 
@@ -117,7 +117,7 @@ Planned filesystem layout:
 - Implement Astral package manager (CLI + database + recipe parser)
 - Define recipe specification format
 - Build initial core packages (toolchain, libc, shell, base utilities)
-- Add support for init systems (systemd, OpenRC)
+- Add support for init systemd
 - Provide documentation and usage guides
 - Prepare a minimal bootable ISO
 - Publish official binary package repository
