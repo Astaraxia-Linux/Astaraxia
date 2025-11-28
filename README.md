@@ -41,7 +41,7 @@ These features are **not implemented yet**.
 
 ## Status  
 Astaraxia is *not* a functional distribution.  
-The developer is currently working through the LFS bootstrap (8.30. Ncurses-6.5-20250809).  
+The developer is currently working through the BLFS.  
 Once the base system is complete, initial work on Astral and package recipes will begin.
 
 No ISO, no repositories, no packages, and no release currently exist.
