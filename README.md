@@ -4,7 +4,6 @@
 > **Warning:**  
 > Astaraxia is currently an early-stage concept.  
 > The distribution, package manager, recipes, and build system **do not exist in a usable form yet**.  
-> Development will begin after the Linux From Scratch bootstrap is complete.
 
 Im a just single dev, i dont have anyone to help me with. i dont know if i can do all of this
 
@@ -58,12 +57,11 @@ This section describes the *planned* bootstrap process.
 - Internet access for sources
 
 ### Planned Steps  
-1. Complete LFS Chapters 1–8 to build the initial toolchain.  
-2. Enter the chroot environment.  
-3. Clone the Astaraxia repository.  
-4. Build the Astral package manager.  
-5. Use Astral to install core packages and build the base system.  
-6. init system systemd.
+1. Complete LFS Chapters 1–8 to build the initial toolchain.  DONE
+2. Configure /etc, /usr, kernel and etc
+2. Build the Astral package manager.  
+3. Use Astral to install core packages and build the base system.  
+4. init system systemd.
 
 These steps are currently placeholders and will be updated once development begins.
 
@@ -114,7 +112,7 @@ Planned filesystem layout:
 - Avoid unnecessary abstraction or hidden automation
 
 ## Roadmap / TODO
-- Finish Linux From Scratch bootstrap (current: Chapter 8)
+- Finish Linux From Scratch bootstrap (current: Chapter 8) DONE
 - Implement Astral package manager (CLI + database + recipe parser)
 - Define recipe specification format
 - Build initial core packages (toolchain, libc, shell, base utilities)
