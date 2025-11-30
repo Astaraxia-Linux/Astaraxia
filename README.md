@@ -40,7 +40,7 @@ These features are **not implemented yet**.
 
 ## Status  
 Astaraxia is *not* a functional distribution.  
-The developer is currently working through the BLFS.  
+The developer is currently working through BLFS.  
 Once the base system is complete, initial work on Astral and package recipes will begin.
 
 No ISO, no repositories, no packages, and no release currently exist.
@@ -51,7 +51,7 @@ This section describes the *planned* bootstrap process.
 
 ### Prerequisites  
 - x86_64 CPU 
-- RAM suitable for compiling (8GB recommended)  
+- RAM suitable for compiling (8GB or More recommended)  
 - ~25GB free disk  
 - A working Linux system with compilation tools  
 - Internet access for sources
