@@ -2,7 +2,7 @@
 *A flexible, source-based Linux distribution that Aims for transparency, configurability, and reproducibility.*
 
 > **Warning:**  
-> Astaraxia is currently an early-stage concept.  
+> Astaraxia is currently in a early-stage.  
 > The distribution, package manager, recipes, and build system **do not exist in a usable form yet**.  
 
 Im a just single dev, i dont have anyone to help me with. i dont know if i can do all of this
@@ -20,7 +20,7 @@ Im a just single dev, i dont have anyone to help me with. i dont know if i can d
 - [License](#license)
 
 ## Overview  
-Astaraxia is a conceptual Linux distribution designed around a unified hybrid package model.  
+Astaraxia is a Linux distribution designed around a unified hybrid package model.  
 It aims to give users full control over their system by allowing both binary installations and fully transparent source builds through a custom package manager called **Astral**.
 
 While inspired by source-based distributions, Astaraxia intends to remain straightforward to maintain, predictable in behavior, and fully reproducible.  
@@ -35,16 +35,16 @@ Planned features include:
 - Deterministic, reproducible build pipeline  
 - Unified package manager (Astral) for all software, base system included  
 
-These features are **not implemented yet**.
+Some of the features are **not implemented yet**.
 
 ## Status  
 Astaraxia is *not* a functional distribution.  
 The developer is currently working through BLFS.  
-Once the base system is complete, initial work on Astral and package recipes will begin.
+Once the base system is complete, initial work on Astral and package recipes will begin. - NOW
 
-No ISO, no repositories, no packages, and no release currently exist.
+No ISO and no release currently exist.
 
-## Installation / Bootstrapping  
+## Installation / Bootstrapping - STAGE 1
 Astaraxia cannot be installed yet.  
 This section describes the *planned* bootstrap process.
 
@@ -73,6 +73,7 @@ Planned configuration will be stored in:
 Expected tunable options:
 - Default source/binary behavior
 - Global CFLAGS / CXXFLAGS / LDFLAGS
+- CCACHE
 - Repository locations (official + user-defined)
 - Parallel build settings
 - Feature toggles for optional dependencies
@@ -95,17 +96,17 @@ Planned filesystem layout:
 - Provide a fully transparent build system
 - Offer unified package management for source
 - Maintain reproducibility with explicit, auditable metadata
-- Keep the system predictable, minimal, and maintainable
+- Keep the system predictable, minimal, rollbackable and maintainable
 - Allow users to fully rebuild or inspect any component
 - Avoid unnecessary abstraction or hidden automation
 
 ## Roadmap / TODO
 - Finish Linux From Scratch bootstrap (current: Chapter 8) DONE
-- Implement Astral package manager (CLI + database + recipe parser) 
+- Implement Astral package manager (CLI + database + recipe parser) - DONE
 - Define recipe specification format - DONE
 - Build initial core packages (toolchain, libc, shell, base utilities) - DONE
-- Add support for init systemd
-- Provide documentation and usage guides
+- Add support for init systemd, openrc or sysV
+- Provide documentation and usage guides - PARTIALY
 - Prepare a minimal bootable ISO
 - Publish official binary package repository
 - Create developer documentation and naming conventions
