@@ -32,7 +32,7 @@ While inspired by source-based distributions, Astaraxia intends to remain straig
 Planned features include:
 
 * Hybrid build model: install packages by compiling from source or using binaries (your choice)
-* Plain, inspectable build recipes (hackers love this)
+* Plain, inspectable build recipes (hackers love this, and yes—even your two-year-old can read them without problems)
 * Minimal base system bootstrapped via Linux From Scratch (yes, really)
 * Deterministic, reproducible build pipeline
 * Unified package manager (Astral) for all software, including the base system
