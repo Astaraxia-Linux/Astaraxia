@@ -123,11 +123,11 @@ Astaraxia’s package manager, Astral, is heavily influenced by three distros I 
 | Predictable builds               | ✅           | ✅     | ✅                  |
 | Source-based control             | ⚠️          | ⚠️    | ✅                  |
 | Binary convenience               | ⚠️          | ✅     | 🔧 Planned         |
-| Rollbacks / transactional safety | ⚠️          | ✅     | 🔧 Planned         |
+| Rollbacks / transactional safety | ⚠️          | ✅     | 🔧 In Development         |
 | Declarative config               | ⚠️          | ✅     | 🔧 Planned         |
 | Package recipes / ebuild-like    | ✅           | ⚠️    | ✅                  |
 
-In short: Astral takes the **predictability and minimalism of Gentoo/Arch**, and sprinkles in **Nix-style rollback dreams**. All while staying painfully transparent and POSIX-compliant. Also, rewriting it in Rust for speed? Never happening.
+In short: Astral takes the **predictability and minimalism of Gentoo/Arch**, and sprinkles in **Nix-style rollback**. All while staying painfully transparent and POSIX-compliant. Also, rewriting it in Rust for speed? Never happening.
 
 ## Roadmap / TODO
 
