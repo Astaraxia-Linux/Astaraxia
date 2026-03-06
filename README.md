@@ -76,7 +76,7 @@ Astaraxia is functional but young. Here is where things actually stand:
 | Astral package manager | Working (V5.0.1.0) |
 | astral-env (declarative config) | Working (v1.0.0.0) |
 | astral-recipegen | Working (v2.2.0) |
-| Recipe index (AOHARU) | Small but growing (~10 packages) |
+| Recipe index (AOHARU) | Small but growing (39 packages) |
 | Community overlay (ASURA) | Available, contributions welcome |
 | Base system packages | Partial |
 | Binary package support | Planned (via astral-env) |
