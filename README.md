@@ -1,8 +1,12 @@
-# Astaraxia
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/246477946?s=400&u=1cc036e46c741ab71c8eb189ff673d8410232af5&v=4" alt="Astaraxia Logo" width="120"/>
+  
+  # Astaraxia
+  
+  *A flexible, source-based Linux distribution built on transparency, configurability, and reproducibility.*
+</div>
 
-*A flexible, source-based Linux distribution built on transparency, configurability, and reproducibility.*
-
-> **Warning:**
+> [!WARNING]
 > Astaraxia is in early but active development. The distribution bootstraps and the package manager works, but expect rough edges, missing packages, and the occasional existential crisis.
 
 One dev. Too many ambitions. Somehow still going.
