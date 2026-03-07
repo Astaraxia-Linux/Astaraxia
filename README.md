@@ -2,6 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/246477946?s=400&u=1cc036e46c741ab71c8eb189ff673d8410232af5&v=4" alt="Astaraxia Logo" width="120"/>
   
   # Astaraxia
+  ***VERSION:*** AZURE
   
   *A flexible, source-based Linux distribution built on transparency, configurability, and reproducibility.*
 </div>
