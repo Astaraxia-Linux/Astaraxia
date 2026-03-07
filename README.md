@@ -57,7 +57,7 @@ Codenames represent major shifts within the Astaraxia ecosystem.
 
 | Version | Astral version | Features |
 |---|---|---|
-| Yara | V0.0.0.1 | Self-Explainatory |
+| Yara | V0.0.0.1 - V5.0.0.0 | Self-Explainatory |
 | AZURE | V5+ | Astral-env and more |
 
 If you're wondering why "AZURE" is in full caps, its an acryonm.
